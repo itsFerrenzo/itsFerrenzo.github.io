@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FERRENZO</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #000000;
+		}
+		.loading-container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+		.loading-image {
+            width: 20vw;
+            height: 20vw;
+			background-image: url("loadvideo.gif");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: cover;
+
+		}
+		.loading-bar {
+			width: 25%;
+			height: 5px;
+			background-color: #eee;
+			margin-top: 30px;
+			position: relative;
+		}
+		.loading-progress {
+			width: 0%;
+			height: 100%;
+			background-color: #0074d9;
+			position: absolute;
+			top: 0;
+			left: 0;
+			animation: progress 5s ease-out forwards;
+		}
+		@keyframes enlarge {
+			0% {
+				width: 18vw;
+                height: 18vw;
+			}
+			50% {
+				width: 21vw;
+                height: 21vw;
+			}
+            100% {
+                width: 20vw;
+                height: 20vw;
+            }
+		}
+		@keyframes progress {
+			0% {
+				width: 0%;
+			}
+			100% {
+				width: 100%;
+			}
+		}
+
+		@media only screen and (max-width: 768px) {		
+			.loading-image {
+				width: 30vw;
+				height: 30vw;
+			}
+			.loading-bar {
+				width: 50% 
+			}
+		}
+		
+
+
+	</style>
+</head>
+<body>
+	<div class="loading-container">
+		<div class="loading-image"></div>
+		<div class="loading-bar">
+			<div class="loading-progress"></div>
+		</div>
+	</div>
+	<script>
+		function loadHomePage() {
+		  window.location.href = "menu.html";
+		}
+  
+		setTimeout(loadHomePage, 2500); // Set a timeout of 5 seconds (5000 milliseconds) for the loading animation
+	  </script>
+</body>
+</html>

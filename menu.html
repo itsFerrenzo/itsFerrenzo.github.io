@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FERRENZO</title>
+  <link rel="icon" href="images/loadicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+
+  <body>
+
+  <!-- Add your CSS styles or link to an external stylesheet here -->
+  <style>
+    @font-face {
+      font-family: 'VCR';
+      src: url(fonts/vcr_mono.ttf);
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      opacity: 0;
+      animation: fadeIn 1.8s ease-in-out forwards;
+    }
+    @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(50%);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+    nav {
+      background-color: #000000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      display: block;
+      padding: 10px;
+      color: #28B0EF;
+      text-decoration: none;
+      font-family: VCR;
+      font-size: 24px;
+      margin-bottom: 20px;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    /* Add any additional styles as needed */
+  </style>
+</head>
+
+<nav>
+  <a href="main.html">[CREDITS]</a>
+  <a href="services.html">[ABOUT ME]</a>
+  <a href="Artist">[RELEASES]</a>
+  <a href="services.html">[SERVICES/CONTACT]</a>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FERRENZO</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Add your current website's CSS -->
+  <style>
+    /* Styles for the link-sharing page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000; /* Adjust as needed */
+      margin: 0;
+      padding: 20px;
+      opacity: 0;
+      animation: fadeIn 1.8s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(50%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .link-container {
+      max-width: 800px; /* Adjust based on your preference */
+      margin: 0 auto;
+      display: grid;
+      gap: 20px;
+    }
+
+    .link-item {
+      background-color: #ffffff; /* Adjust as needed */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+    }
+
+    .link-item a {
+      text-decoration: none;
+      color: #333333; /* Adjust as needed */
+      font-size: 24px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .link-item a i {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+
+    .link-item:hover {
+      transform: translateY(-5px);
+      transition: all 0.3s ease;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 2rem;
+      color: #9F958B;; /* Adjust as needed */
+      text-decoration: none;
+    }
+
+    .social-icons a:hover {
+      color: #000000; /* Adjust as needed */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+    <a href="main.html" class="title-link">
+      <h1 class="title">FERRENZO</h1>
+  </a>
+    <br>
+    <h2 class="subtitle">mixer / atmos mixer / mastering / producer </h2>
+    <nav class="navigation">
+      <ul>
+        <li><a href="main.html">[CREDITS]</a></li>
+        <li><a href="about.html">[ABOUT ME]</a></li>
+        <li><a href="discography.html">[RELEASES]</a></li>
+        <li><a href="services.html">[SERVICES]</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <!-- Link-sharing section -->
+  <div class="link-container">
+    <!-- Each link-item represents a link/button -->
+    <div class="link-item">
+      <a href="https://engineears.com/ferrenzomusic" target="_blank"><i class="fa fa-file"></i> Book A Mix On EngineEars</a>
+    </div>
+    <div class="link-item">
+      <a href="mailto:ferrenzomusic@gmail.com" target="_blank"><i class="fa fa-envelope"></i> Email For Enquiries</a>
+    </div>
+    </div>
+
+    <!-- Add more link-items as needed -->
+  </div>
+
+    <!-- Social media icons -->
+    <div class="social-icons">
+      <a href="https://www.instagram.com/ferrenzomusic" target="_blank"><i class="fa fa-instagram"></i></a>
+      <a href="https://open.spotify.com/playlist/5z9xAWqHIwXQZ9UukW6oRK?si=b169853eae784b04" target="_blank"><i class="fa fa-spotify"></i></a>
+      <a href="https://www.soundcloud.com/ferrenzomusic" target="_blank"><i class="fa fa-soundcloud"></i></a>
+      <!-- Replace "YourInstagram", "YourYoutube", "YourTikTok" with your actual social media links -->
+      <!-- You can also adjust the icon classes (fa-instagram, fa-youtube, fa-tiktok) based on your icon library -->
+    </div>
+</body>
+</html>

@@ -4,6 +4,8 @@
 ## Adding a New Credit
 
 All Credits located in **main.html**:
+
+Drag album art jpg/png into *images* folder
 ```html
 <div class="grid-item [single/album]">
   <img src="images/[image name]">

@@ -75,6 +75,9 @@ header {
     text-decoration: none;
     font-family: VCR;
   }
+
+  .navigation playlist {
+    color: #000000;
   
   .navigation a:hover {
     color: #ffffff;

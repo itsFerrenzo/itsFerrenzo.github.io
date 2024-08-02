@@ -31,6 +31,36 @@
         }
       }
 
+      .featurefm-container {
+        background-color: transparent;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .featurefm-container iframe {
+        background-color: transparent;
+      }
+
+      iframe {
+          border-radius: 10px;
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .responsive-iframe {
+          position: relative;
+          padding-bottom: 56.25%; /* 16:9 ratio */
+          height: 0;
+          overflow: hidden;
+      }
+
+      .responsive-iframe iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+      }
+
     </style>
   </head>
   <body>
@@ -40,10 +70,10 @@
         <h1 class="title">FERRENZO</h1>
     </a>
       <br>
-      <h2 class="subtitle">Mixer / Mastering / Producer / Atmos Mixer</h2>
+      <h2 class="subtitle">mixer / mastering / producer / atmos mixer</h2>
       <nav class="navigation">
         <ul>
-          <li><a href="credits.html">[CREDITS]</a></li>
+          <li><a href="main.html">[CREDITS]</a></li>
           <li><a href="aboutme.html">[ABOUT ME]</a></li>
           <li><a href="releases.html">[RELEASES]</a></li>
           <li><a href="services.html">[SERVICES]</a></li>
@@ -66,8 +96,12 @@
   -->
 
     <main>
-      <h1>COMING SOON</h1>
-
+      <div class="responsive-iframe">
+        <iframe src="https://ffm.to/ferrenzo-deeriginal-always" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+      <div class="responsive-iframe">
+        <iframe src="https://ffm.to/jungle-n-b-vol-1" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
       </main>
   </body>
   <!-- FOOTER --
